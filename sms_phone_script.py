@@ -17,8 +17,8 @@ def scriptfile():
     daysrange = tree.xpath('//*[@id="quote-summary"]/div[1]/table/tbody/tr[5]/td[2]/text()')
     closeprev = tree.xpath('//*[@id="quote-summary"]/div[1]/table/tbody/tr[2]/td[2]/text()')
 
-    auth_id = "XXXXXXXXXXXXXXXXXXXX"
-    auth_token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    auth_id = "XXX"
+    auth_token = "XXX"
 
     p = plivo.RestAPI(auth_id, auth_token)
 
