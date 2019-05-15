@@ -1,2 +1,2 @@
-# Sms_Script
-A cool python script I made that will send you AAPL stock info straight to your phone as a text msg.
+# README
+# This is an interesting python script I coded from scratch that will ping you key Apple stock (AAPL) information directly to your mobile phone as a text message.
