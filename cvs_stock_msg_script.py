@@ -6,7 +6,7 @@ import schedule
 import time
 
 def scriptfile():
-    page = requests.get('https://finance.yahoo.com/quote/AAPL?ltr=1')
+    page = requests.get('https://finance.yahoo.com/quote/CVS?ltr=1')
 
     tree = html.fromstring(page.content)
 
